@@ -1,0 +1,36 @@
+.Pokedex:first-of-type {
+  margin-top: 10rem; /* ⬅️ Push Pokedex down */
+}
+
+.Pokedex-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+.Pokedex-winner {
+  font-weight: bold;
+  color: green;
+  font-size: 1.25rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.Pokedex-title {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.Pokedex:first-of-type .Pokedex-title {
+  color: red;
+}
+
+.Pokedex:last-of-type .Pokedex-title {
+  color: blue;
+}

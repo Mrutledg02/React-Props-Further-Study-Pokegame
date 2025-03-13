@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'PokemonSolid';
+    src: url('./fonts/PokemonSolid.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'PokemonHollow';
+    src: url('./fonts/PokemonHollow.ttf') format('truetype');
+  }
+
+.pokegame-title-container {
+  position: relative;  /* This keeps it in normal flow but allows layering */
+  text-align: center;
+
+}
+  
+.pokegame-layered-text {
+    display: inline-block;
+    font-size: 4rem; 
+    line-height: 1;
+}
+
+.pokegame-solid,
+.pokegame-hollow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+  
+.pokegame-solid {
+    font-family: 'PokemonSolid', sans-serif;
+    color: #ffcb05; /* Pokemon yellow */
+    z-index: 1; /* Lower layer */
+}
+  
+.pokegame-hollow {
+    font-family: 'PokemonHollow', sans-serif;
+    color: #2a75bb; /* Pokemon blue outline */
+    z-index: 2; /* Higher layer (on top) */
+    pointer-events: none; /* Prevent hover effects from interfering */
+}
+
+
+
+  
