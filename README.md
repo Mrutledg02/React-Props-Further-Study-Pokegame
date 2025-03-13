@@ -1,12 +1,22 @@
-# React + Vite
+# 🎮 Pokegame - React Pokedex Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pokegame is a fun React project that displays two randomly split hands of Pokémon and determines the winner based on total experience points. This project is built using **React + Vite**, styled with a **retro Pokémon theme**, and includes a layered Pokémon-style title.
 
-Currently, two official plugins are available:
+## 📸 Screenshot
+![Pokegame Screenshot](./assets/screenshot.png) <!-- Replace with an actual image of your project -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- **Randomized Pokémon Hands:** Pokémon are split into two hands of four.
+- **Winning Hand Calculation:** The hand with the highest total experience wins!
+- **Pokémon-Themed Styling:** Uses **"Press Start 2P"** for retro Game Boy vibes.
+- **Dynamic Background & Title:** Styled with a Pokémon font and layered text effect.
+- **Reusable Components:** Components include `Pokegame`, `Pokedex`, and `Pokecard`.
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
+- React (with Vite)
+- JavaScript (ES6)
+- CSS (Custom Styling)
+- Google Fonts (`Press Start 2P`)
+- Pokémon API Sprites
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
