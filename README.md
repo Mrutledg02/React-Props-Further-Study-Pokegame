@@ -3,7 +3,7 @@
 Pokegame is a fun React project that displays two randomly split hands of Pokémon and determines the winner based on total experience points. This project is built using **React + Vite**, styled with a **retro Pokémon theme**, and includes a layered Pokémon-style title.
 
 ## 📸 Screenshot
-![Pokegame Screenshot](./assets/screenshot.png) <!-- Replace with an actual image of your project -->
+![Pokegame Screenshot](./assets/Screenshot_2025-03-13_144908.png)
 
 ## 🚀 Features
 - **Randomized Pokémon Hands:** Pokémon are split into two hands of four.
